@@ -10,8 +10,8 @@ The ultimate Discord server annihilation toolkit. Handle with **EXTREME CAUTION*
 | `/nuke`          | Full server annihilation + spam|  
 | `/nchannels`     | Purge all channels             |  
 | `/nroles`        | Delete every role              |  
-| `/spchannels 50` | Flood with 50 channels         |  
-| `/sproles 100`   | Create 100 rainbow roles       |  
+| `/spchannels XX` | Flood with XX channels         |  
+| `/sproles XXX`   | Create XXX rainbow roles       |  
 | `/spall`         | 100x spam @everyone per channel|  
 
 
