@@ -61,5 +61,3 @@ This project operates under the **NO MERCY PUBLIC LICENSE** - do whatever you wa
 ```  
 > Made with malicious intent by KolovraTT_  
 ```  
-
-**Ask for another question just by typing it!**
