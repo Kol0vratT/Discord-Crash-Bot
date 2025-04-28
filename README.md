@@ -1,10 +1,6 @@
 # 💥 CRASH BOT by KolovraTT_  
 *"When Chaos Meets Code"*  
 
-![Banner](https://i.postimg.cc/QdMVSnqM/9cdd99f377e5882ee1c5b394395611cf.jpg)  
-[![Version](https://img.shields.io/badge/Version-2.3.1-red)](https://github.com/KolovraTT/CrashBot) 
-[![License](https://img.shields.io/badge/License-UNLICENSE-black)](LICENSE) 
-
 The ultimate Discord server annihilation toolkit. Handle with **EXTREME CAUTION** - irreversible destruction guaranteed.  
 
 ## 🔥 Features  
