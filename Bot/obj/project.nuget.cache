@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "dgSpecHash": "7atiLcL6ME4=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\olala\\source\\repos\\DiscordCrashBot2025\\DiscordCrashBot2025\\DiscordCrashBot2025.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\olala\\.nuget\\packages\\discord.net\\3.17.4\\discord.net.3.17.4.nupkg.sha512",
+    "C:\\Users\\olala\\.nuget\\packages\\discord.net.commands\\3.17.4\\discord.net.commands.3.17.4.nupkg.sha512",
+    "C:\\Users\\olala\\.nuget\\packages\\discord.net.core\\3.17.4\\discord.net.core.3.17.4.nupkg.sha512",
+    "C:\\Users\\olala\\.nuget\\packages\\discord.net.interactions\\3.17.4\\discord.net.interactions.3.17.4.nupkg.sha512",
+    "C:\\Users\\olala\\.nuget\\packages\\discord.net.rest\\3.17.4\\discord.net.rest.3.17.4.nupkg.sha512",
+    "C:\\Users\\olala\\.nuget\\packages\\discord.net.webhook\\3.17.4\\discord.net.webhook.3.17.4.nupkg.sha512",
+    "C:\\Users\\olala\\.nuget\\packages\\discord.net.websocket\\3.17.4\\discord.net.websocket.3.17.4.nupkg.sha512",
+    "C:\\Users\\olala\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
+    "C:\\Users\\olala\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\olala\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\olala\\.nuget\\packages\\system.collections.immutable\\8.0.0\\system.collections.immutable.8.0.0.nupkg.sha512",
+    "C:\\Users\\olala\\.nuget\\packages\\system.interactive.async\\6.0.1\\system.interactive.async.6.0.1.nupkg.sha512",
+    "C:\\Users\\olala\\.nuget\\packages\\system.linq.async\\6.0.1\\system.linq.async.6.0.1.nupkg.sha512",
+    "C:\\Users\\olala\\.nuget\\packages\\system.reactive\\6.0.1\\system.reactive.6.0.1.nupkg.sha512",
+    "C:\\Users\\olala\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
